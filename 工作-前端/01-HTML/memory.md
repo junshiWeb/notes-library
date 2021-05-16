@@ -1,0 +1,65 @@
+
+
+- meta
+  - charset
+  - viewport
+  - content
+- title
+- link
+- style
+- script
+- strict  严格
+- a
+  - download
+  - href
+  - target
+    - _blank
+    - parent
+    - self
+    - top
+- img   src  alt
+- input
+  - accept  接受 file文件使用
+  - checked 选中
+  - disabled 不可选
+  - form 
+  - max min maxlength minlength 限制输入
+  - name  元素名称
+  - placeholder 占位符
+  - value  
+  - width heigth
+  - type
+    - button 
+    - checkbox 复选框
+    - date / datetime / time / week 时间
+    - email  邮箱
+    - file 文件
+    - password 
+    - radio 单选框
+    - range 范围
+    - reset 重置
+    - search 搜索
+    - submit  提交
+    - text  
+- label
+  - for='id'
+  - input  id='id'
+- form
+  - action  提交到位置
+  - enctype  对表单数据进行编码
+    - application/x-www-form-urlencoded  默认，发送所有编码
+    - multipart/form-data 不对字符编码，在使用包含文件上传控件的表单时
+    - text/plain 空格转换为 "+" 加号，但不对特殊字符编码
+  - method  提交表单方法 post get ... 
+  - name 表单名称
+  - target 
+- table
+  - cellpadding  单元格内边距
+  - cellspacing    单元格之间的空白
+  - frame  规定外边框可见部分
+    - box 所有
+    - above  上面
+    - below 下面
+    - hsides 上面两边
+    - vsides 左右两边
+  - border 所有边框

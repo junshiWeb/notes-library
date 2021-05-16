@@ -1,0 +1,38 @@
+//*[@link_text='python-selenium -- xpath定位方法详解']
+
+1.xpath 基本定位
+八种定位 id、class、name、tag_name、link_text、partial_link_text
+
+
+2.xpath 相对路径/绝对路径定位
+//div/botton
+
+/html/div/button
+
+
+3.xpath文本、模糊、逻辑定位
+
+文本定位：//button[text()="登录"]
+模糊定位：使用contains() 包含函数 
+如：//button[contains(text(),"登录")]、//button[contains(@class,"btn")]
+
+匹配以xx开头的属性值 xx结尾的属性值
+如：//button[starts-with(@class,"btn")]、//input[ends-with(@class,"-special")]
+
+逻辑运算符定位 and or
+如：//input[@name="phone" and @datatype="m"]
+
+4.轴运算
+
+　　ancestor：祖先节点 包括父
+　　parent：父节点
+　　prceding-sibling：当前元素节点标签之前的所有兄弟节点
+　　prceding：当前元素节点标签之前的所有节点 
+　　following-sibling:当前元素节点标签之后的所有兄弟节点
+　　following：当前元素节点标签之后的所有节点 
+
+
+
+
+
+
